@@ -1,0 +1,39 @@
+{
+  "name": "vectorizer",
+  "version": "0.0.1",
+  "description": "Rewrite scalar functions to higher-dimensional ones",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Anselm Eickhoff",
+    "email": "anselm.eickhoff@gmail.com",
+    "url": "https://github.com/aeickhoff"
+  },
+  "dependencies": {
+    "code-builder": "*",
+    "babel-core": "^5.1.10"
+  },
+  "devDependencies": {
+    "tape": "^4.2.1"
+  },
+  "scripts": {
+    "compile": "babel --blacklist=regenerator -o index.js index.es6.js",
+    "prepublish": "npm run compile",
+    "test": "node test-compiled.js"
+  },
+  "keywords": [
+    "code",
+    "generation",
+    "vector",
+    "math",
+    "dimensions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/citybound/vectorizer.git"
+  },
+  "homepage": "https://github.com/citybound/vectorizer",
+  "bugs": {
+    "url": "https://github.com/citybound/vectorizer/issues"
+  }
+}
