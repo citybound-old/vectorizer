@@ -4,10 +4,15 @@
 
 Rewrite scalar functions to higher-dimensional ones
 
-## Usage
+## Purpse/Examples
 
-[![NPM](https://nodei.co/npm/vectorizer.png)](https://www.npmjs.com/package/vectorizer)
+...coming soon.
+
+## Contribution
+
+Goals, wishes and bugs are managed as GitHub Issues - if you want to help, have a look there and submit your work as pull requests.
+Your help is highly welcome! :)
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/aeickhoff/vectorizer/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/citybound/vectorizer/blob/master/LICENSE.md) for details.
